@@ -82,7 +82,7 @@ The following environment variables are supported:
 
    Default system locale.
 
- * `TARGET_HOSTNAME` (Default: "mixxxpi" )
+ * `TARGET_HOSTNAME` (Default: "printbuddypi" )
 
    Setting the hostname to the specified value.
 

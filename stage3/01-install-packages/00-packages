@@ -6,8 +6,8 @@ fonts-droid-fallback
 fonts-liberation2
 arandr
 udevil
-libgl1-mesa-dri libgles1 libgles2-mesa xcompmgr
-chromium-browser ffmpeg
+libgl1-mesa-dri libgles1 libgles2-mesa xcompmgr libgles-dev
+chromium ffmpeg
 python3-pip
 docker.io
 libshout-dev libtag1-dev libprotobuf-dev protobuf-compiler
