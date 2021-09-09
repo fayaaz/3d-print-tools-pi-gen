@@ -7,6 +7,8 @@ on_chroot << EOF
     wget https://github.com/smartavionics/Cura/releases/download/20210908/Cura-mb-master-aarch64-20210908.AppImage -O /opt/Cura.AppImage
     chmod +x /opt/Cura.AppImage
     chown pi:root /opt/Cura.AppImage
+    mkdir -p /home/pi/.local/share/cura/master/plugins/OctoPrintPlugin
+    git clone --recursive -j2 https://github.com/fieldOfView/Cura-OctoPrintPlugin.git /home/pi/.local/share/cura/master/plugins/OctoPrintPlugin/OctoPrintPlugin
 EOF
 
 mkdir -p ${ROOTFS_DIR}/home/pi/octoprint/
